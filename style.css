@@ -179,3 +179,28 @@ nav {
     border-radius: 100%;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
+
+@media(width > 540px) {
+    .section__container h1,
+    .section__container h2 {
+        font-size: 5.5rem;
+        line-height: 5.5rem;
+    }
+}
+
+@media (width > 768px) {
+    .nav__links > div li:not(:first-child) {
+        display: block;
+    }
+    .nav__links > div {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .section__container h1,
+    .section__container h2 {
+        font-size: 7rem;
+        line-height: 7rem;
+    }
+}
